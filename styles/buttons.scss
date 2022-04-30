@@ -1,0 +1,26 @@
+.rocket-coffee-button {
+  background: none;
+  border: 2px solid var(--button);
+  border-radius: 6px;
+  height: 2.5rem;
+  padding: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 0.75rem;
+  transition: background-color 300ms ease-in-out;
+  margin-top: 5vh;
+  padding: 1rem;
+  cursor: pointer;
+  color: white;
+  img {
+    margin-left: 9px;
+  }
+  @media screen and (min-width: 720px) {
+    margin: 0;
+  }
+}
+.rocket-coffee-button:hover {
+  background-color: var(--button);
+}
