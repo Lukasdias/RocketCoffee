@@ -15,6 +15,9 @@ module.exports = {
       serif: ["Manrope", "serif"],
     },
     extend: {
+      backgroundImage: {
+        "blur-desktop": "url(./assets/blur-1.png), url(./assets/blur-2.png)",
+      },
       backgroundPosition: {
         desktop: "left, right",
       },
