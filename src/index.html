@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./../output.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Rocket Coffee</title>
+  </head>
+  <body>
+    <div
+      class="relative w-screen h-screen flex justify-start flex-col bg-background"
+    >
+      <header
+        class="flex lg:hidden w-full px-7 py-7 border-border border-b-2 lg:border-0"
+      >
+        <div class="flex w-full justify-between items-center">
+          <img src="./../assets/logo-mobile.svg" class="w-2/5" />
+          <img
+            src="./../assets/menu-buguer-open.svg"
+            alt=""
+            class="open-menu md:w-12"
+          />
+          <img
+            src="./../assets/menu-buguer-close.svg"
+            alt=""
+            class="close-menu hidden md:w-12"
+          />
+        </div>
+      </header>
+
+      <div class="w-100 hidden lg:flex justify-center mt-9">
+        <header class="hidden lg:grid grid-cols-3 w-4/5">
+          <div class="flex justify-center items-center">
+            <img
+              src="./../assets/logo-desktop.svg"
+              alt="icon"
+              class="text-center"
+            />
+          </div>
+
+          <nav class="flex items-center justify-between">
+            <div class="flex flex-grow justify-center items-center">
+              <span
+                class="text-text-color font-semibold hover:text-button transition-colors cursor-pointer text-xs xl:text-base 2xl:text-lg"
+              >
+                Home
+              </span>
+            </div>
+            <div class="flex flex-grow justify-center items-center">
+              <span
+                class="text-text-color font-semibold hover:text-button transition-colors cursor-pointer text-xs xl:text-base 2xl:text-lg"
+              >
+                Menu
+              </span>
+            </div>
+            <div class="flex flex-grow justify-center items-center">
+              <span
+                class="text-text-color font-semibold hover:text-button transition-colors cursor-pointer text-xs xl:text-base 2xl:text-lg"
+              >
+                Recompensas
+              </span>
+            </div>
+            <div class="flex flex-grow justify-center items-center">
+              <span
+                class="text-text-color font-semibold hover:text-button transition-colors cursor-pointer text-xs xl:text-base 2xl:text-lg"
+              >
+                Gift Cards
+              </span>
+            </div>
+            <div class="flex flex-grow justify-center items-center">
+              <span
+                class="text-text-color font-semibold hover:text-button transition-colors cursor-pointer text-xs xl:text-base 2xl:text-lg"
+              >
+                Lojas
+              </span>
+            </div>
+          </nav>
+
+          <div class="flex justify-center items-center">
+            <button
+              class="text-sm px-6 py-2 flex items-center justify-center bg-none border-2 border-button text-text-color rounded-xl font-extrabold hover:bg-button transition"
+            >
+              PEGAR MEU CAFÉ
+            </button>
+          </div>
+        </header>
+      </div>
+
+      <div
+        class="flex-grow flex relative flex-col bg-cover bg-no-repeat justify-between"
+        style="background-image: url(./../assets/blur-mobile.png)"
+      >
+        <nav class="collapse absolute w-full bg-background flex-col hidden">
+          <button id="collapse-first-btn" class="collapse-button">Home</button>
+          <button class="collapse-button">Menu</button>
+          <button class="collapse-button">Recompensas</button>
+          <button class="collapse-button">Gift Cards</button>
+          <button class="collapse-button">Lojas</button>
+        </nav>
+
+        <div
+          class="w-full flex lg:hidden justify-center text-2xl text-text-color font-semibold text-center px-5 mt-20"
+        >
+          O café que fará seu código <br />
+          decolar para o próximo nível.
+        </div>
+
+        <div class="w-full flex lg:hidden justify-center">
+          <button
+            class="flex items-center w-auto text-center px-8 py-2 bg-none border-2 border-button text-text-color rounded-xl font-extrabold"
+          >
+            PEGAR MEU CAFÉ <img src="./../assets/arrow.svg" class="ml-2" />
+          </button>
+        </div>
+
+        <div
+          class="w-full flex justify-center px-3 flex-col text-center lg:mx-auto lg:mt-auto"
+        >
+          <h1
+            class="text-text-color font-black text-4xl md:text-5xl lg:text-6xl"
+          >
+            Great Coffee
+          </h1>
+          <h1
+            class="great-code text-background font-black text-4xl md:text-5xl lg:text-6xl"
+          >
+            < Great Code />
+          </h1>
+          <div class="w-full flex justify-center">
+            <img
+              src="./../assets/rocket-coffee.png"
+              alt=""
+              class="w-full lg:max-w-2xl xl:max-w-3xl 2xl:max-w-6xl"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

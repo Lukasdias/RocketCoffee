@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .collapse-button {
+    @apply outline-1 outline-button px-4 py-2 flex items-center justify-start w-full font-medium active:font-bold active:border-l-4 border-b-2 border-b-border border-l-button text-text-color text-lg;
+  }
+}
