@@ -4,26 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./../output.css" />
+    <link rel="stylesheet" href="./output.css" />
     <link rel="stylesheet" href="./styles/styles.css" />
     <title>Rocket Coffee</title>
   </head>
   <body>
     <div
-      class="relative w-screen h-screen flex justify-start flex-col bg-background"
+      class="relative w-screen h-screen flex justify-start flex-col bg-background bg-none lg:bg-cover bg-no-repeat lg:bg-desktop"
+      style="background-image: url(./assets/blur-1.png), url(./assets/blur-2.png)"
     >
       <header
         class="flex lg:hidden w-full px-7 py-7 border-border border-b-2 lg:border-0"
       >
         <div class="flex w-full justify-between items-center">
-          <img src="./../assets/logo-mobile.svg" class="w-2/5" />
+          <img src="./assets/logo-mobile.svg" class="w-2/5" />
           <img
-            src="./../assets/menu-buguer-open.svg"
+            src="./assets/menu-buguer-open.svg"
             alt=""
             class="open-menu md:w-12"
           />
           <img
-            src="./../assets/menu-buguer-close.svg"
+            src="./assets/menu-buguer-close.svg"
             alt=""
             class="close-menu hidden md:w-12"
           />
@@ -34,7 +35,7 @@
         <header class="hidden lg:grid grid-cols-3 w-4/5">
           <div class="flex justify-center items-center">
             <img
-              src="./../assets/logo-desktop.svg"
+              src="./assets/logo-desktop.svg"
               alt="icon"
               class="text-center"
             />
@@ -90,7 +91,7 @@
 
       <div
         class="flex-grow flex relative flex-col bg-cover bg-no-repeat justify-between"
-        style="background-image: url(./../assets/blur-mobile.png)"
+        style="background-image: url(./assets/blur-mobile.png)"
       >
         <nav class="collapse absolute w-full bg-background flex-col hidden">
           <button id="collapse-first-btn" class="collapse-button">Home</button>
@@ -111,7 +112,7 @@
           <button
             class="flex items-center w-auto text-center px-8 py-2 bg-none border-2 border-button text-text-color rounded-xl font-extrabold"
           >
-            PEGAR MEU CAFÉ <img src="./../assets/arrow.svg" class="ml-2" />
+            PEGAR MEU CAFÉ <img src="./assets/arrow.svg" class="ml-2" />
           </button>
         </div>
 
@@ -130,7 +131,7 @@
           </h1>
           <div class="w-full flex justify-center">
             <img
-              src="./../assets/rocket-coffee.png"
+              src="./assets/rocket-coffee.png"
               alt=""
               class="w-full lg:max-w-2xl xl:max-w-3xl 2xl:max-w-6xl"
             />
